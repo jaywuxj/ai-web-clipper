@@ -6,7 +6,7 @@
 
 - **AI 智能总结** — 支持多种 Prompt 模板（快速总结、技术精读、学术论文、全文翻译等）
 - **多 AI 模型支持** — OpenAI、Claude、DeepSeek、Kimi、智谱 GLM、通义千问、MiniMax、豆包等
-- **免费模式** — 支持 Zero Token 模式，复用浏览器登录态免费调用 AI（Kimi、智谱、千问）
+- **免费模式** — 支持 Zero Token 模式，复用浏览器登录态免费调用 AI（Kimi）
 - **知识体系** — AI 自动分类，多层文件夹管理，File System Access API 扫描本地目录同步
 - **侧边栏对话** — 基于当前网页内容的多轮 AI 深度对话
 - **PDF 支持** — 自动检测 PDF 页面，提取文字内容进行总结
