@@ -1,0 +1,37 @@
+{
+  "name": "ai-web-clipper",
+  "version": "2.0.0",
+  "description": "一键抓取网页内容，通过 AI 总结后保存为本地 Markdown 文件",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "openai": "^4.60.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/turndown": "^5.0.5",
+    "@wxt-dev/module-react": "^1.1.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.5.0",
+    "wxt": "^0.19.0"
+  }
+}

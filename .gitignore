@@ -1,0 +1,9 @@
+node_modules/
+.output/
+.wxt/
+package-lock.json
+*.local
+.env*
+.DS_Store
+dist/
+*.zip

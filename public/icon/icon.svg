@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景圆角矩形 -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- 文档 / 页面 -->
+  <path d="M40 22h30l20 20v62c0 3.3-2.7 6-6 6H40c-3.3 0-6-2.7-6-6V28c0-3.3 2.7-6 6-6z"
+        fill="white" fill-opacity="0.92"/>
+  <!-- 文档折角 -->
+  <path d="M70 22v14c0 3.3 2.7 6 6 6h14z"
+        fill="white" fill-opacity="0.6"/>
+  <!-- 文档内的横线（代表文字内容） -->
+  <rect x="44" y="52" width="32" height="3.5" rx="1.75" fill="#6366F1" fill-opacity="0.3"/>
+  <rect x="44" y="62" width="26" height="3.5" rx="1.75" fill="#6366F1" fill-opacity="0.25"/>
+  <rect x="44" y="72" width="30" height="3.5" rx="1.75" fill="#6366F1" fill-opacity="0.2"/>
+  <!-- 闪电 ⚡ — 代表 AI / 智能 -->
+  <path d="M78 52l-14 22h10l-4 24 18-28H78l6-18z"
+        fill="url(#bolt)" stroke="#F59E0B" stroke-width="1" stroke-linejoin="round"/>
+  <!-- 闪电高光 -->
+  <path d="M78 52l-14 22h10l-4 24 18-28H78l6-18z"
+        fill="white" fill-opacity="0.25"/>
+</svg>
