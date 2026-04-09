@@ -19,22 +19,22 @@
 ### 弹窗界面
 选择模板，一键总结当前页面
 
-![弹窗界面](images/popup.png)
+<img src="images/popup.png" width="200" />
 
 ### 侧边栏对话
 基于页面内容，与 AI 多轮深度对话
 
-![侧边栏对话](images/sidepanel.png)
+<img src="images/sidepanel.png" width="200" />
 
 ### Prompt 模板管理
 内置多种模板，支持自定义创建
 
-![Prompt模板](images/templates.png)
+<img src="images/templates.png" width="200" />
 
 ### 基础设置
 免费模式零门槛，支持多模型配置
 
-![基础设置](images/settings.png)
+<img src="images/settings.png" width="200" />
 
 ## 安装
 
