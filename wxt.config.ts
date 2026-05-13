@@ -3,8 +3,9 @@ import { defineConfig } from "wxt";
 export default defineConfig({
   modules: ["@wxt-dev/module-react"],
   manifest: {
-    name: "AI Web Clipper",
-    description: "一键抓取网页内容，通过 AI 总结后保存为本地 Markdown 文件",
+    name: "__MSG_appName__",
+    description: "__MSG_appDescription__",
+    default_locale: "en",
     version: "2.0.0",
     permissions: [
       "activeTab",
@@ -19,28 +20,20 @@ export default defineConfig({
     ],
     host_permissions: [
       "<all_urls>",
-      "https://kimi.moonshot.cn/*",
-      "https://tongyi.aliyun.com/*",
-      "https://qianwen.biz.aliyun.com/*",
-      "https://qianwen.com/*",
-      "https://www.qianwen.com/*",
-      "https://chat.qwen.ai/*",
-      "https://tongyi.com/*",
-      "https://chatglm.cn/*",
     ],
     action: {
       default_icon: {
-        "16": "icon/icon.svg",
-        "32": "icon/icon.svg",
-        "48": "icon/icon.svg",
-        "128": "icon/icon.svg",
+        "16": "icon/16.png",
+        "32": "icon/32.png",
+        "48": "icon/48.png",
+        "128": "icon/128.png",
       },
     },
     icons: {
-      "16": "icon/icon.svg",
-      "32": "icon/icon.svg",
-      "48": "icon/icon.svg",
-      "128": "icon/icon.svg",
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png",
+      "128": "icon/128.png",
     },
     side_panel: {
       default_path: "sidepanel.html",

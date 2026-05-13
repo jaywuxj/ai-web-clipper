@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "AI Web Clipper"
+  },
+  "appDescription": {
+    "message": "一键抓取网页内容，通过 AI 智能总结后保存为本地 Markdown 文件"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "AI Web Clipper"
+  },
+  "appDescription": {
+    "message": "Capture web content with one click, summarize it with AI and save as local Markdown files"
+  }
+}
