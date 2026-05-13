@@ -42,7 +42,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/ai-web-clipper.git
+git clone https://github.com/jaywuxj/ai-web-clipper.git
 cd ai-web-clipper
 
 # 安装依赖
